@@ -1,0 +1,12 @@
+# Python 3.9 (analyses were run with Python 3.9.25 on Linux)
+# Versions marked "used" are those recorded in the analysis environment.
+numpy==1.26.4          # used
+pandas==2.3.1          # used
+lifelines==0.30.0      # used (CoxTimeVaryingFitter, NelsonAalenFitter)
+miceforest==6.0.4      # used (multiple imputation by chained equations)
+lightgbm==4.6.0        # used (backend for miceforest)
+scipy>=1.10,<1.14
+matplotlib>=3.7,<3.10
+seaborn>=0.12,<0.14
+openpyxl>=3.1          # reading/writing .xlsx files
+jupyter                # to run the notebooks

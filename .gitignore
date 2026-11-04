@@ -1,0 +1,22 @@
+# Restricted CPRD data and anything derived from it must never be committed
+data/*
+!data/README.md
+outputs/*
+!outputs/README.md
+
+# Data files of any kind
+*.zip
+*.xlsx
+*.xls
+*.csv
+*.txt
+!requirements.txt
+*.parquet
+*.pkl
+
+# Python / Jupyter clutter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
